@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="meng-chat-netty" />
+        <module name="meng-chat-mybatis" />
+        <module name="meng-chat-hello" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="meng-chat-hello" target="8" />
+      <module name="meng-chat-mybatis" target="11" />
+      <module name="meng-chat-netty" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="meng-chat-mybatis" options="-parameters" />
+      <module name="meng-chat-netty" options="-parameters" />
+    </option>
+  </component>
+</project>

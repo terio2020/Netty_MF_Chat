@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/meng-chat-hello/meng-chat-hello.iml" filepath="$PROJECT_DIR$/meng-chat-hello/meng-chat-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meng-chat-mybatis/meng-chat-mybatis.iml" filepath="$PROJECT_DIR$/meng-chat-mybatis/meng-chat-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meng-chat-netty/meng-chat-netty.iml" filepath="$PROJECT_DIR$/meng-chat-netty/meng-chat-netty.iml" />
+    </modules>
+  </component>
+</project>
